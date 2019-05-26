@@ -1,7 +1,7 @@
 " --- START PLUGINS ---
 call plug#begin('~/.vim/plugged')
-	" sensible defaults
-	Plug 'tpope/vim-sensible'
+  " sensible defaults
+  Plug 'tpope/vim-sensible'
   " status bar
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
