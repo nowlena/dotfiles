@@ -1,3 +1,6 @@
+" Set compatibility to Vim only.
+set nocompatible
+
 " --- START PLUGINS ---
 call plug#begin('~/.vim/plugged')
   " sensible defaults
@@ -64,3 +67,10 @@ set scrolloff=5
 " Show line numbers
 set number relativenumber
 set nu rnu
+
+" Highlight matching search patterns
+set hlsearch
+" Include matching uppercase words with lowercase search term
+set ignorecase
+" Include only uppercase words with uppercase search term
+set smartcase
