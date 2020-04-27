@@ -44,7 +44,7 @@ You'll still have to implement the updated files within your various programs. F
 
 ## Updating Repo
 
-To copy the files within this repo with your local files, run the following command from inside this repo:
+To update the files within this repo with your local files, run the following command from inside this repo:
 
 ```sh
 bash update_repo.sh
