@@ -107,4 +107,15 @@ alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias uupdate="sudo apt update && sudo apt upgrade -y"
 alias vimconfig="nvim ~/.config/nvim/local_init.vim"
 alias vimbundles="nvim ~/.config/nvim/local_bundles.vim"
+alias cocconfig="nvim ~/.config/nvim/coc_init.vim"
+alias cocsettings="nvim ~/.config/nvim/coc-settings.json"
+alias gi="git init"
+alias gcmsgi="git commit -m 'Initial commit'"
+alias pg-start='sudo service postgresql start'
+alias pg-status='sudo service postgresql status'
+alias pg-run='sudo -u postgres psql'
+alias bcd-start="sudo service apache2 start && sudo service mysql start"
+alias bcd-stop="sudo service apache2 stop && sudo service mysql stop"
+alias bcd-restart="sudo service apache2 restart && sudo service mysql restart"
+alias bcd-status="sudo service apache2 status && sudo service mysql status"
 source /home/aaron/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
